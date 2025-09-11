@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Membuat Form</title>
+</head>
+
+<body>
+    <form method="GET" action="gambar.html">
+        <h4>FORM</h4>
+        <input type="text" name="var1" size="30" value="Enter your name here.">
+        <br>
+        <input type="text" name="alamat" size="30" placeholder="Enter your address here.">
+        <br>
+        <b>Are you a student?</b>
+        <br>
+        <input type="checkbox" name="var2">
+        <br>
+        <b>How old are you?</b>
+        <br>
+        <input type="radio" name="var4" value="10-15"> 10 - 15 <br>
+        <input type="radio" name="var4" value="16-20"> 16 - 20 <br>
+        <input type="radio" name="var4" value="21-26"> 21 - 26 <br>
+        <input type="radio" name="var4" value=">26"> > 26 <br>
+        <b>Which one do you have?</b><br><br>
+        <input type="checkbox" name="vehicle1" value="Bike"> I have a bike
+        <hr>
+        <input type="checkbox" name="vehicle2" value="Car"> I have a car
+        <hr>
+        <input type="checkbox" name="vehicle3" value="Boat"> I have a boat
+        <hr>
+        <input type="checkbox" name="vehicle2" value="Car" checked> I have a plane
+        <hr>
+        <b>Where are you from?</b><br><br>
+        <select name="vard" size="1">
+            <option value="BG">Bulgaria</option>
+            <option value="UK">United Kingdom</option>
+            <option value="USA">USA</option>
+            <option value="USA" selected>Indonesia</option>
+        </select>
+        <br><br>
+        <b>Enter your password:</b><br>
+        <input type="password" name="password" size="30" placeholder="Enter your password here">
+        <br><br>
+
+        Enter your comment:<br>
+        <textarea name="comment" rows="5" cols="40" placeholder="Type your comment here..."></textarea><br><br>
+
+        <input type="submit" name="var5" value="Send">
+        <input type="reset" name="var6" value="Clear">
+    </form>
+</body>
+
+</html>
